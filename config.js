@@ -1,15 +1,14 @@
 import * as firebase from "firebase";
 require("@firebase/firestore");
 
-const firebaseConfig = {
-  apiKey: "AIzaSyBI_6KhkBRmacZ1wuIDJYA-H53CXyau-P0",
-  authDomain: "willy-app-f2f57.firebaseapp.com",
-  databaseURL: "https://willy-app-f2f57.firebaseio.com",
-  projectId: "willy-app-f2f57",
-  storageBucket: "willy-app-f2f57.appspot.com",
-  messagingSenderId: "957572252876",
-  appId: "1:957572252876:web:c77c38bb82a60591efee69",
-  measurementId: "G-4Y08PYMXK1"
+var firebaseConfig = {
+  apiKey: "AIzaSyD9k7O7nkCj8yqzgUGQLEWMmv-LGiP0u4Y",
+  authDomain: "coding-class-69738.firebaseapp.com",
+  databaseURL: "https://coding-class-69738.firebaseio.com",
+  projectId: "coding-class-69738",
+  storageBucket: "coding-class-69738.appspot.com",
+  messagingSenderId: "249875064942",
+  appId: "1:249875064942:web:8299f4b61a896c52959e7f"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
